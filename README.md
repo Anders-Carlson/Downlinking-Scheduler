@@ -5,5 +5,5 @@ Basically, the idea of this application would be to take in inputs such as curre
 
 
 
-### More documentation
+### Concept Document
 https://docs.google.com/document/d/1YOChiQLyRnPaX0hLRmEjBCIv2O7e-1wwqxq_aRixu6A/edit?usp=sharing
