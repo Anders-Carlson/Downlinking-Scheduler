@@ -82,21 +82,8 @@ intervalCollection = accessUS.ComputedAccessIntervalTimes;
 accessintervals = intervalCollection.ToArray(0, -1);
 accessUS.SpecifyAccessIntervals(accessintervals);
 
-access=zeros(size(accessintervals,1),size(accessintervals,2));
-access=str2double(accessintervals);
-
-%% Plotting Access Intervals
-%Set the scenario start and end time (eventually controlled from config file)
-scenariostart = datetime(2023,3,1,00,00,00);
-scenarioend = datetime(2024,3,1,00,00,00);
-
-%Create a int variable representing the number of seconds in the mission 
-s = int32(seconds(scenarioend - scenariostart));
-
-% Create a time vector 
-time = [1:1:s]';
-
-% Determine the length of the access interval array (basically, how many times the
+%%Plo
+% Determine the length of the access array (basically, how many times the
 % satellite will be able to "see" CONUS/GNDSTs
 access_length = length(access);
 
@@ -129,6 +116,6 @@ for i = 2:length(data)
 end;
 
 plot(time, data);
-title("BMAP Data Generation over the mission");
+title("BMAP Data Generation over one day");
 xlabel("Seconds [s]");
 ylabel("Total bytes of data generated [B]");
