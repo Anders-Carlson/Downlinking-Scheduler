@@ -1,0 +1,21 @@
+Scenario Characteristics:
+==============================================================
+Start Time: 1 Mar 2023 00:00:00.000
+Stop Time: 1 Mar 2024 00:00:00.000
+
+
+Ground Station Characteristics:
+==============================================================
+Station 1:
+Name:
+Latitude:
+Longitude:
+
+Station 2:
+Name:
+Latitude:
+Longitude:
+
+Satellite Characteristics:
+===============================================================
+Name:
